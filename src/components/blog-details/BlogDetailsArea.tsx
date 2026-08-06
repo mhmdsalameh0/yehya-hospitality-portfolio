@@ -13,7 +13,7 @@ const highlights = [
     date: "December 2016",
   },
   {
-    image: "/assets/images/projects/work4.png",
+    image: "/assets/images/optimized/work4.webp",
     title: "Mastering Teppanyaki & Food Science at Kobe USA",
     date: "2004",
   },
@@ -47,7 +47,7 @@ export default function BlogDetailsArea() {
                           <p>At Gastronomica, YAZ led business transformation across flagship concepts including White Robata and Milk Bun, aligning brand experience, service standards, operational systems, and guest-facing digital enhancements.</p>
                           <p>The work focused on improving day-to-day execution while elevating the guest journey: stronger leadership routines, sharper operational controls, targeted digital improvements, and culinary direction supported by executive chef hiring.</p>
                           <div className="postbox__img m-img mt-50 mb-45">
-                            <img src="/assets/images/projects/work1.png" alt="Fine dining restaurant operations" />
+                            <img src="/assets/images/optimized/work1.webp" alt="Fine dining restaurant operations" />
                             <h5 className="postbox__img-caption">Hospitality operations, guest experience, and brand transformation.</h5>
                           </div>
                           <div className="postbox__quote">
@@ -81,7 +81,7 @@ export default function BlogDetailsArea() {
                           <div className="sidebar__widget-content">
                             <div className="sidebar__author">
                               <div className="sidebar__author-thumb">
-                                <img src="/assets/images/about/me-grey-studio.png" alt="Yehya Abouzahr" />
+                                <img src="/assets/images/optimized/me-grey-studio.webp" alt="Yehya Abouzahr" />
                               </div>
                               <div className="sidebar__author-content">
                                 <h3 className="sidebar__author-title">YAZ</h3>

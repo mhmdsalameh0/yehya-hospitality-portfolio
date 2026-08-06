@@ -6,8 +6,8 @@ import ImagePopup from '@/modals/ImagePopup';
 import portfolio_img_1 from "@/assets/images/white-robata-kuwait.jpg";
 import portfolio_img_2 from "@/assets/images/WhatsApp Image 2026-08-05 at 10.40.31 PM.jpeg";
 import portfolio_img_3 from "@/assets/images/cheers factory.jpeg";
-import portfolio_img_4 from "@/assets/images/projects/work4.png";
-import portfolio_img_5 from "@/assets/images/projects/work5.png";
+import portfolio_img_4 from "@/assets/images/optimized/work4.webp";
+import portfolio_img_5 from "@/assets/images/optimized/work5.webp";
 
 interface DataType {
   id: number;

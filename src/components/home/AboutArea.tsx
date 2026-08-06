@@ -32,7 +32,7 @@ export default function AboutArea() {
             <div className="col-lg-5">
               <div className="about-portrait-card wow fadeInUp delay-0-2s">
                 <div className="about-portrait-frame">
-                  <img src="/assets/images/about/me-grey-studio.png" alt="YAZ - Yehya Abouzahr" />
+                  <img src="/assets/images/optimized/me-grey-studio.webp" alt="YAZ - Yehya Abouzahr" width="760" height="906" loading="lazy" decoding="async" />
                 </div>
                 <div className="about-portrait-caption">
                   <strong>YAZ</strong>

@@ -22,7 +22,7 @@ export default function HeroArea() {
             <div className="col-lg-6">
               <div className="hero-image">
                 <div className="hero-image-frame">
-                  <img src="/assets/images/ICE%20BERG.png" alt="The Secret of F&B Brands iceberg" />
+                  <img src="/assets/images/optimized/iceberg.webp" alt="The Secret of F&B Brands iceberg" width="900" height="1035" loading="eager" decoding="async" />
                 </div>
               </div>
 

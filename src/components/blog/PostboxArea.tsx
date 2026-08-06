@@ -38,7 +38,7 @@ const highlights = [
     date: "December 2016",
   },
   {
-    image: "/assets/images/projects/work4.png",
+    image: "/assets/images/optimized/work4.webp",
     title: "Mastering Teppanyaki & Food Science at Kobe USA",
     date: "2004",
   },
@@ -107,7 +107,7 @@ export default function PostboxArea() {
                   <div className="sidebar__widget-content">
                     <div className="sidebar__author">
                       <div className="sidebar__author-thumb">
-                        <img src="/assets/images/about/me-grey-studio.png" alt="Yehya Abouzahr" />
+                        <img src="/assets/images/optimized/me-grey-studio.webp" alt="Yehya Abouzahr" />
                       </div>
                       <div className="sidebar__author-content">
                         <h3 className="sidebar__author-title">YAZ</h3>

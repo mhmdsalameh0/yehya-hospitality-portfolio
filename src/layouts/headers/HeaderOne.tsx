@@ -22,7 +22,7 @@ export default function HeaderOne() {
                     <div className="logo">
                       <Link href="/" className="text-logo">
                         <span className="logo-photo">
-                          <img src="/assets/images/about/me-paris.png" alt="Yehya Abouzahr" />
+                          <img src="/assets/images/optimized/me-paris.webp" alt="Yehya Abouzahr" />
                         </span>
                         <span className="logo-mark">YAZ</span>
                         <span className="logo-copy">
