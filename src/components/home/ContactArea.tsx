@@ -25,7 +25,7 @@ export default function ContactArea() {
     <>
       <section id="contact" className="contact-area">
         <div className="container">
-          <div className="row">
+          <div className="row contact-grid">
             <div className="col-xl-12 col-lg-12">
               <div className="section-title section-black-title wow fadeInUp delay-0-2s">
                 <h2>Contact Me</h2>
@@ -149,7 +149,7 @@ export default function ContactArea() {
                     </div>
                     <div className="col-md-12">
                       <div className="form-group mb-0">
-                        <button type="submit" className="theme-btn">
+                        <button type="submit" className="theme-btn contact-submit-btn">
                           Send WhatsApp Message <i className="ri-whatsapp-line"></i>
                         </button>
                         <div id="msgSubmit" className="hidden"></div>
