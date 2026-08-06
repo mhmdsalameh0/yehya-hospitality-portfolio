@@ -15,7 +15,7 @@ export default function FooterOne() {
           </div>
           <div className="row">
             <div className="col-lg-6 col-sm-6">
-              <p className="copy-left-text">Developed by Mahmoud Salameh</p>
+              <p className="copy-left-text">Developed by Mohammad Salameh</p>
             </div>
             <div className="col-lg-6 col-sm-6">
               <p className="copy-right-text">© 2026 Yehya Abouzahr. All rights reserved.</p>
