@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 980" role="img" aria-labelledby="title desc">
+  <title id="title">The Restaurant Success Iceberg</title>
+  <desc id="desc">A professional iceberg diagram showing visible restaurant success above the water and operational foundations below the water.</desc>
+  <rect width="1200" height="980" fill="#f4f3ed"/>
+  <g fill="none" stroke="#070707" stroke-width="3" stroke-linecap="round">
+    <path d="M92 98h42M106 118h42M104 138h42"/>
+    <path d="M1064 98h42M1050 118h42M1038 138h42"/>
+    <path d="M84 252c38-48 99-42 124 8 42-23 94-7 118 37H52c7-18 18-33 32-45z" stroke-width="2"/>
+    <path d="M916 228c45-54 120-48 152 9 45-22 96-3 120 42H880c8-21 20-38 36-51z" stroke-width="2"/>
+    <path d="M384 210l218-124 216 404H240z" fill="#ffffff"/>
+    <path d="M602 86l-42 163 86-61-34 156 116-85-86 231" stroke-width="2"/>
+    <path d="M440 300l56-34M502 430l36-74M702 346l54-49M612 452l66-84" stroke-width="2"/>
+    <path d="M0 500c94-18 181-18 282 0 103 18 195 18 296 0 110-20 213-18 318 0 107 18 206 18 304 0" stroke-width="5"/>
+    <path d="M252 518h704L600 896z" fill="#e6eaee"/>
+    <path d="M600 896l-65-208 86 58-29-153 105 85-65-160" stroke-width="2"/>
+    <path d="M360 636l72-36M420 772l58-72M758 650l-76-42M738 790l-58-70" stroke-width="2"/>
+  </g>
+  <g font-family="Oswald, Arial, sans-serif" fill="#070707" text-anchor="middle">
+    <text x="600" y="78" font-size="58" font-weight="700">THE RESTAURANT SUCCESS ICEBERG</text>
+    <text x="600" y="132" font-size="31" font-weight="600" letter-spacing="2">WHAT GUESTS SEE ABOVE, WHAT OPERATORS MASTER BELOW</text>
+  </g>
+  <g font-family="Poppins, Arial, sans-serif" fill="#070707" font-size="25">
+    <g>
+      <line x1="198" y1="304" x2="364" y2="344" stroke="#070707" stroke-width="3"/>
+      <circle cx="364" cy="344" r="7"/>
+      <text x="74" y="312">Beautiful Restaurant</text>
+      <line x1="172" y1="374" x2="382" y2="374" stroke="#070707" stroke-width="3"/>
+      <circle cx="382" cy="374" r="7"/>
+      <text x="74" y="382">Friendly Staff</text>
+      <line x1="150" y1="444" x2="366" y2="420" stroke="#070707" stroke-width="3"/>
+      <circle cx="366" cy="420" r="7"/>
+      <text x="74" y="452">Delicious Food</text>
+    </g>
+    <g text-anchor="end">
+      <line x1="806" y1="326" x2="1000" y2="292" stroke="#070707" stroke-width="3"/>
+      <circle cx="806" cy="326" r="7"/>
+      <text x="1126" y="300">Happy Guests</text>
+      <line x1="790" y1="386" x2="1000" y2="372" stroke="#070707" stroke-width="3"/>
+      <circle cx="790" cy="386" r="7"/>
+      <text x="1126" y="380">High Ratings</text>
+      <line x1="764" y1="448" x2="1000" y2="452" stroke="#070707" stroke-width="3"/>
+      <circle cx="764" cy="448" r="7"/>
+      <text x="1126" y="460">Premium Brand</text>
+    </g>
+  </g>
+  <g>
+    <circle cx="600" cy="355" r="86" fill="#f5c934" stroke="#070707" stroke-width="4"/>
+    <text x="600" y="332" font-family="Oswald, Arial, sans-serif" font-size="43" font-weight="700" text-anchor="middle" fill="#070707">WHAT</text>
+    <text x="600" y="382" font-family="Oswald, Arial, sans-serif" font-size="43" font-weight="700" text-anchor="middle" fill="#070707">PEOPLE SEE</text>
+  </g>
+  <g>
+    <circle cx="600" cy="690" r="92" fill="#f5c934" stroke="#070707" stroke-width="4"/>
+    <text x="600" y="660" font-family="Oswald, Arial, sans-serif" font-size="41" font-weight="700" text-anchor="middle" fill="#070707">WHAT</text>
+    <text x="600" y="708" font-family="Oswald, Arial, sans-serif" font-size="41" font-weight="700" text-anchor="middle" fill="#070707">YAZ BUILDS</text>
+  </g>
+  <g font-family="Poppins, Arial, sans-serif" fill="#070707" font-size="24">
+    <g>
+      <line x1="86" y1="604" x2="330" y2="604" stroke="#070707" stroke-width="3"/>
+      <circle cx="330" cy="604" r="7"/>
+      <text x="84" y="612">Leadership</text>
+      <line x1="86" y1="658" x2="360" y2="640" stroke="#070707" stroke-width="3"/>
+      <circle cx="360" cy="640" r="7"/>
+      <text x="84" y="666">Restaurant Culture</text>
+      <line x1="86" y1="712" x2="382" y2="684" stroke="#070707" stroke-width="3"/>
+      <circle cx="382" cy="684" r="7"/>
+      <text x="84" y="720">Staff Coaching</text>
+      <line x1="86" y1="766" x2="426" y2="730" stroke="#070707" stroke-width="3"/>
+      <circle cx="426" cy="730" r="7"/>
+      <text x="84" y="774">FOH ↔ BOH Communication</text>
+      <line x1="86" y1="820" x2="468" y2="778" stroke="#070707" stroke-width="3"/>
+      <circle cx="468" cy="778" r="7"/>
+      <text x="84" y="828">Inventory Management</text>
+    </g>
+    <g text-anchor="end">
+      <line x1="786" y1="606" x2="1040" y2="606" stroke="#070707" stroke-width="3"/>
+      <circle cx="786" cy="606" r="7"/>
+      <text x="1126" y="614">Vendor Relationships</text>
+      <line x1="760" y1="656" x2="1040" y2="656" stroke="#070707" stroke-width="3"/>
+      <circle cx="760" cy="656" r="7"/>
+      <text x="1126" y="664">Quality Control</text>
+      <line x1="740" y1="706" x2="1040" y2="706" stroke="#070707" stroke-width="3"/>
+      <circle cx="740" cy="706" r="7"/>
+      <text x="1126" y="714">Menu Engineering</text>
+      <line x1="714" y1="756" x2="1040" y2="756" stroke="#070707" stroke-width="3"/>
+      <circle cx="714" cy="756" r="7"/>
+      <text x="1126" y="764">Guest Journey Design</text>
+      <line x1="682" y1="806" x2="1040" y2="806" stroke="#070707" stroke-width="3"/>
+      <circle cx="682" cy="806" r="7"/>
+      <text x="1126" y="814">Continuous Improvement</text>
+    </g>
+  </g>
+  <g font-family="Oswald, Arial, sans-serif" fill="#070707" text-anchor="middle">
+    <text x="600" y="938" font-size="31" font-weight="700" letter-spacing="3">YAZ HOSPITALITY ICEBERG</text>
+    <text x="600" y="966" font-size="18" font-weight="500" letter-spacing="2">BEYOND WHAT YOU SEE, TO WHAT TRULY MATTERS.</text>
+  </g>
+</svg>
