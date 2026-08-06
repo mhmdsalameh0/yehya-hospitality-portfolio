@@ -817,13 +817,13 @@ html {
 }
 
 .fixed-header .header-inner {
-    padding: 15px 0px;
+    padding: 10px 0px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .header-inner {
-    padding: 30px 0px;
+    padding: 16px 0px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -904,11 +904,16 @@ html {
 
 .main-menu {
     text-align: right;
+    white-space: nowrap;
+}
+
+.main-menu ul {
+    white-space: nowrap;
 }
 
 .main-menu ul li {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 26px;
     position: relative;
 }
 
@@ -917,15 +922,15 @@ html {
 }
 
 .main-menu ul li.has-dropdown>a {
-    padding-right: 14px;
+    padding-right: 12px;
 }
 
 .main-menu ul li.has-dropdown>a:after {
     position: absolute;
     content: "\f107";
-    right: -4px;
-    top: 10px;
-    font-size: 16px;
+    right: -3px;
+    top: 4px;
+    font-size: 12px;
     color: var(--main-color);
     font-family: "Font Awesome 6 Pro";
     -webkit-transition: 0.3s;
@@ -939,10 +944,10 @@ html {
 
 .main-menu ul li a {
     font-family: var(--title-font);
-    font-size: 22px;
+    font-size: 15px;
     line-height: 1;
     font-weight: 500;
-    padding: 10px 0px;
+    padding: 8px 0px;
     display: inline-block;
     -webkit-transition: 0.3s;
     transition: 0.3s;
