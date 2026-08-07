@@ -3910,7 +3910,7 @@ ul.blog_pagination li a:hover {
     display: inline-flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 12px;
     color: var(--main-color);
     background: #e6eaee;
     border: 1px solid rgba(255, 255, 255, 0.12);
@@ -3963,8 +3963,8 @@ ul.blog_pagination li a:hover {
     position: relative;
     z-index: 1;
     flex: 1 1 auto;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    overflow: visible;
+    text-overflow: clip;
     white-space: nowrap;
 }
 
