@@ -50,6 +50,13 @@ Version      : 1.0
     --grey-bg: #E6EAEE;
     --text-font: "Plus Jakarta Sans", sans-serif;
     --title-font: "Plus Jakarta Sans", sans-serif;
+    --font-body: clamp(15px, 1.05vw, 17px);
+    --font-label: 14px;
+    --font-h1: clamp(40px, 5vw, 72px);
+    --font-h2: clamp(30px, 4vw, 52px);
+    --font-h3: clamp(22px, 2.5vw, 32px);
+    --font-h4: clamp(18px, 1.7vw, 24px);
+    --font-h5: clamp(16px, 1.35vw, 20px);
 }
 
 
@@ -65,8 +72,8 @@ body {
     color: #E6EAEE;
     background: var(--body-background);
     font-weight: 400;
-    line-height: 30px;
-    font-size: 16px;
+    line-height: 1.6;
+    font-size: var(--font-body);
     font-family: var(--text-font);
     overflow-x: hidden;
 
@@ -92,40 +99,47 @@ h6,
 
 h1,
 .h1 {
-    font-size: 58px;
+    font-size: var(--font-h1);
+    font-weight: 500;
 }
 
 h2,
 .h2 {
-    font-size: 22px;
+    font-size: var(--font-h2);
+    font-weight: 500;
 }
 
 h3,
 .h3 {
     line-height: 1.3;
-    font-size: 30px;
+    font-size: var(--font-h3);
+    font-weight: 500;
 }
 
 h4,
 .h4 {
     line-height: 1.1;
-    font-size: 24px;
+    font-size: var(--font-h4);
+    font-weight: 500;
 }
 
 h5,
 .h5 {
     line-height: 1.4;
-    font-size: 20px;
+    font-size: var(--font-h5);
+    font-weight: 500;
 }
 
 h6,
 .h6 {
-    font-size: 16px;
+    font-size: var(--font-label);
+    font-weight: 500;
 }
 
 
 p {
-    line-height: 28px;
+    font-size: var(--font-body);
+    line-height: 1.6;
 }
 
 ul,
@@ -196,7 +210,7 @@ textarea,
     width: 100%;
     height: auto;
     border: none;
-    font-size: 20px;
+    font-size: clamp(16px, 1.4vw, 18px);
     border-radius: 0;
     padding: 20px 0;
     background-color: #fff;
@@ -282,7 +296,7 @@ textarea:focus,
 }
 
 .nice-select {
-    font-size: 20px;
+    font-size: clamp(16px, 1.4vw, 18px);
     line-height: 1.3;
 }
 
@@ -310,6 +324,7 @@ textarea {
 
 label {
     cursor: pointer;
+    font-size: var(--font-label);
     font-weight: 500;
     margin-bottom: 5px;
     color: var(--main-color);
@@ -394,14 +409,14 @@ html {
 
 .section-title h2 {
     margin-bottom: 15px;
-    font-size: 60px;
-    line-height: 70px;
+    font-size: var(--font-h2);
+    line-height: 1.15;
     text-transform: uppercase;
     padding-bottom: 20px;
 }
 
 .section-title p {
-    font-size: 16px;
+    font-size: var(--font-label);
     text-transform: uppercase;
 }
 
@@ -411,7 +426,7 @@ html {
 
 
 .section-title h6 {
-    font-size: 18px;
+    font-size: var(--font-label);
 }
 
 .section-title h6 span {
@@ -425,13 +440,13 @@ html {
     display: inline-block;
     border: 1px solid var(--button-border);
     font-family: var(--title-font);
-    font-size: 18px;
+    font-size: var(--font-label);
     font-weight: 500;
     line-height: 20px;
     margin: 0 5px 10px 0;
     overflow: visible;
     border-radius: 2px;
-    padding: 20px 34px;
+    padding: 16px 28px;
     text-align: center;
     text-transform: uppercase;
     -webkit-transition: .3s;
@@ -548,7 +563,7 @@ html {
 .list-style-one.two-column li {
     width: 48%;
     color: rgb(119, 119, 125);
-    font-size: 16px;
+    font-size: var(--font-body);
 }
 
 
@@ -570,7 +585,7 @@ html {
 .list-style-two li:before {
     content: "\f00c";
     line-height: 1;
-    font-size: 16px;
+    font-size: var(--font-body);
     margin-right: 20px;
     color: var(--lighter-color);
     width: 30px;
@@ -652,9 +667,9 @@ html {
 .pagination li .page-link {
     padding: 0;
     border: none;
-    font-size: 24px;
+    font-size: var(--font-h4);
     box-shadow: none;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--main-color);
     background: transparent;
 }
@@ -777,7 +792,7 @@ html {
 
 .single-page-hero-area h2 {
     margin-bottom: 15px;
-    font-size: 150px;
+    font-size: clamp(42px, 7vw, 82px);
     text-transform: uppercase;
     padding-bottom: 20px;
     text-align: center;
@@ -786,8 +801,8 @@ html {
 
 .single-page-hero-area p {
     padding: 0px 200px;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: var(--font-body);
+    line-height: 1.6;
     text-align: center;
     color: var(--main-color);
 }
@@ -869,8 +884,8 @@ html {
 
 .logo .text-logo .logo-mark {
     font-family: var(--title-font);
-    font-size: 38px;
-    font-weight: 600;
+    font-size: clamp(30px, 2.6vw, 34px);
+    font-weight: 500;
     letter-spacing: 0;
     margin-right: 2px;
     line-height: 0.92;
@@ -887,14 +902,14 @@ html {
 
 .logo .text-logo .logo-copy small {
     display: block;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 11px;
+    font-weight: 500;
     letter-spacing: 0;
     line-height: 1;
 }
 
 .logo .text-logo .logo-copy small:first-child {
-    font-size: 13px;
+    font-size: 12px;
     color: var(--main-color);
 }
 
@@ -944,7 +959,7 @@ html {
 
 .main-menu ul li a {
     font-family: var(--title-font);
-    font-size: 15px;
+    font-size: clamp(14px, 1vw, 15px);
     line-height: 1;
     font-weight: 500;
     padding: 8px 0px;
@@ -1050,7 +1065,7 @@ html {
 
 .linkstyle {
     cursor: pointer;
-    font-size: 18px;
+    font-size: var(--font-label);
     position: relative;
     white-space: nowrap;
 }
@@ -1236,7 +1251,7 @@ html {
 
 .sidebar__close-btn {
     display: inline-block;
-    font-size: 16px;
+    font-size: var(--font-body);
     height: 45px;
     width: 45px;
     line-height: 49px;
@@ -1327,21 +1342,21 @@ html {
 
 .hero-content h2 {
     font-weight: 500;
-    font-size: 205px;
+    font-size: clamp(44px, 7vw, 84px);
     text-transform: uppercase;
     text-align: center;
     color: var(--main-color);
 }
 
 .hero-content h2.hero-name {
-    font-size: 72px;
+    font-size: var(--font-h1);
     line-height: 1.15;
     margin-bottom: 25px;
 }
 
 .hero-content p {
     color: var(--main-color);
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.75;
 }
 
@@ -1398,16 +1413,16 @@ html {
 .counter-title {
     font-family: var(--title-font);
     color: var(--primary-color);
-    font-size: 20px;
+    font-size: var(--font-label);
     text-transform: uppercase;
 }
 
 .hero-counter-area .count-text {
     line-height: 1;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--primary-color);
     text-align: center;
-    font-size: 50px;
+    font-size: clamp(34px, 4vw, 46px);
 
 }
 
@@ -1498,7 +1513,7 @@ html {
 
 .clienti-reviews .reviews {
     font-family: var(--title-font);
-    font-size: 28px;
+    font-size: clamp(20px, 2vw, 24px);
     font-weight: 500;
     line-height: 1.05;
     color: var(--main-color);
@@ -1514,7 +1529,7 @@ html {
 .clienti-reviews .reviews p {
     margin-top: 15px;
     font-family: var(--text-font);
-    font-size: 16px;
+    font-size: var(--font-body);
     line-height: 1.75;
     text-transform: none;
 }
@@ -1526,8 +1541,8 @@ html {
     border-radius: 50%;
     background: #e6eaee;
     color: var(--main-color);
-    font-size: 28px;
-    font-weight: 600;
+    font-size: clamp(20px, 2vw, 24px);
+    font-weight: 500;
     text-align: center;
 }
 
@@ -1563,8 +1578,8 @@ html {
 
 .about-section-heading h2 {
     color: var(--primary-color);
-    font-size: 78px;
-    line-height: 0.9;
+    font-size: var(--font-h2);
+    line-height: 1.05;
     margin: 0;
 }
 
@@ -1610,9 +1625,9 @@ html {
 .about-portrait-caption strong {
     color: var(--primary-color);
     font-family: var(--title-font);
-    font-size: 48px;
+    font-size: clamp(30px, 3vw, 40px);
     font-weight: 500;
-    line-height: 0.9;
+    line-height: 1.05;
 }
 
 .about-portrait-caption span {
@@ -1661,8 +1676,8 @@ html {
 
 .about-content-part p {
     color: rgba(244, 243, 237, 0.82);
-    font-size: 22px;
-    font-weight: 500;
+    font-size: var(--font-body);
+    font-weight: 400;
     line-height: 1.65;
     max-width: 770px;
 }
@@ -1679,8 +1694,8 @@ html {
 
 .about-content-part h3 {
     color: var(--primary-color);
-    font-size: 86px;
-    line-height: 0.95;
+    font-size: var(--font-h2);
+    line-height: 1.08;
     margin-bottom: 18px;
 }
 
@@ -1734,7 +1749,7 @@ html {
 
     .about-section-heading h2,
     .about-content-part h3 {
-        font-size: 58px;
+        font-size: clamp(30px, 9vw, 44px);
     }
 
     .about-portrait-card {
@@ -1774,12 +1789,12 @@ html {
 
 .about-image-part h2 {
     margin-top: 30px;
-    font-size: 30px;
+    font-size: var(--font-h3);
 }
 
 .about-content-part h2 {
-    font-size: 55px;
-    line-height: 72px;
+    font-size: var(--font-h2);
+    line-height: 1.18;
     margin-bottom: 20px;
 }
 
@@ -1806,7 +1821,7 @@ html {
 }
 
 .about-social ul li a {
-    font-size: 20px;
+    font-size: clamp(16px, 1.4vw, 18px);
     border: 1px solid rgba(0, 0, 0, 0.05);
     padding: 10px 14px;
     border-radius: 3pz;
@@ -1873,7 +1888,7 @@ html {
 }
 
 .about-counter-part h2 {
-    font-size: 80px;
+    font-size: clamp(38px, 5vw, 58px);
     font-weight: 500;
     line-height: 1;
     letter-spacing: -2.4px;
@@ -1891,9 +1906,9 @@ html {
 }
 
 h2.about-pre-title {
-    font-size: 40px;
+    font-size: var(--font-h2);
     font-family: var(--title-font);
-    font-size: 22px;
+    font-size: var(--font-h3);
     text-transform: uppercase;
     color: var(--primary-color);
 }
@@ -1959,7 +1974,7 @@ h2.about-pre-title {
 
 .service-item h4 {
     color: var(--main-color);
-    font-size: 24px;
+    font-size: var(--font-h4);
     line-height: 1.15;
     text-transform: uppercase;
     margin-top: 20px;
@@ -1968,13 +1983,13 @@ h2.about-pre-title {
 
 .service-item i {
     position: absolute;
-    font-size: 60px;
+    font-size: var(--font-h2);
     color: var(--main-color);
     -webkit-transition: 0.5s;
     transition: 0.5s;
     top: 18%;
     right: 4%;
-    font-size: 30px;
+    font-size: var(--font-h3);
 }
 
 .service-item:hover {
@@ -2015,15 +2030,15 @@ h2.about-pre-title {
 .skill-item h5 {
     margin-top: 20px;
     color: var(--subtitle-color);
-    font-size: 16px;
+    font-size: var(--font-body);
     line-height: 19px;
 }
 
 .skill-item .percent {
     padding: 10px;
     display: block;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: clamp(16px, 1.4vw, 18px);
+    font-weight: 500;
 
     color: var(--black-color);
 }
@@ -2087,7 +2102,7 @@ ul.extra-skills li i {
 
 .resume-wrapper i {
     color: var(--primary-color);
-    font-size: 40px;
+    font-size: var(--font-h2);
     margin-bottom: 30px;
     display: block;
 }
@@ -2105,7 +2120,7 @@ ul.extra-skills li i {
 
 .resume-box h2 {
     color: var(--main-color);
-    font-size: 16px;
+    font-size: var(--font-body);
     line-height: 1.15;
     text-transform: uppercase;
     margin-top: 20px;
@@ -2202,7 +2217,7 @@ ul.extra-skills li i {
 
 .skill-item h5 {
     color: var(--main-color);
-    font-size: 18px;
+    font-size: var(--font-label);
     line-height: 1.2;
     text-transform: uppercase;
     margin-top: 20px;
@@ -2214,14 +2229,14 @@ ul.extra-skills li i {
     display: inline-block;
     color: rgb(119, 119, 125);
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .skill-item .percent {
     padding: 10px;
     display: block;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: clamp(16px, 1.4vw, 18px);
+    font-weight: 500;
     color: var(--black-color);
 }
 
@@ -2382,7 +2397,7 @@ ul.extra-skills li i {
 .portfolio-box .portfolio-caption h1 {
     margin: 0;
     color: white;
-    font-size: 28px;
+    font-size: clamp(20px, 2vw, 24px);
     line-height: 1.15;
     font-weight: 500;
     text-transform: uppercase;
@@ -2439,7 +2454,7 @@ ul.extra-skills li i {
 }
 
 .single-info h3 {
-    font-size: 20px;
+    font-size: clamp(16px, 1.4vw, 18px);
 }
 
 .single-image {
@@ -2526,14 +2541,14 @@ ul.extra-skills li i {
     min-height: 72px;
     margin-bottom: 24px;
     color: rgb(119, 119, 125);
-    font-size: 15px;
+    font-size: clamp(14px, 1vw, 15px);
     line-height: 1.65;
 }
 
 .testimonial-item .testi-des h5 {
     margin-bottom: 0;
     color: var(--main-color);
-    font-size: 26px;
+    font-size: clamp(20px, 2vw, 24px);
     line-height: 1.15;
     text-transform: uppercase;
     margin-top: 0;
@@ -2599,7 +2614,7 @@ ul.extra-skills li i {
 .pricing-header h4.title {
     margin: 12px 0px;
     color: var(--subtitle-color);
-    font-size: 40px;
+    font-size: var(--font-h2);
     line-height: 49px;
     padding-bottom: 20px;
     text-transform: uppercase;
@@ -2608,7 +2623,7 @@ ul.extra-skills li i {
 .pricing-item .pricing-header .save-percent {
     margin-bottom: 20px;
     color: rgb(119, 119, 125);
-    font-size: 20px;
+    font-size: clamp(16px, 1.4vw, 18px);
     line-height: 27px;
 }
 
@@ -2629,7 +2644,7 @@ ul.extra-skills li i {
 }
 
 .pricing-item .pricing-header .price:after {
-    font-size: 16px;
+    font-size: var(--font-body);
     font-weight: 400;
     color: var(--main-color);
     content: '/Hour';
@@ -2727,7 +2742,7 @@ ul.extra-skills li i {
 
 .contact-form-area .form-group .for-icon {
     right: 26px;
-    font-size: 16px;
+    font-size: var(--font-body);
     margin-bottom: 0;
     position: absolute;
     margin-top: -45px;
@@ -2735,7 +2750,7 @@ ul.extra-skills li i {
 }
 
 .contact-form-area .form-group .form-control {
-    font-size: 16px;
+    font-size: var(--font-body);
     color: var(--main-color);
     font-weight: 400;
     line-height: 1.3;
@@ -2759,7 +2774,7 @@ ul.extra-skills li i {
 
 .contact-form-area .form-group label {
     font-family: var(--title-font);
-    font-size: 16px;
+    font-size: var(--font-label);
     color: var(--main-color);
     font-weight: 400;
     margin-bottom: 18px;
@@ -2800,7 +2815,7 @@ ul.extra-skills li i {
 }
 
 .circle-btn i {
-    font-size: 30px;
+    font-size: var(--font-h3);
     color: var(--black-color);
 }
 
@@ -2830,7 +2845,7 @@ ul.extra-skills li i {
     transition: .3s;
     text-transform: uppercase;
     color: var(--main-color);
-    font-size: 20px;
+    font-size: clamp(16px, 1.4vw, 18px);
 }
 
 .contact-content-part {
@@ -2841,7 +2856,7 @@ ul.extra-skills li i {
 }
 
 .contact-page-content h6 {
-    font-size: 18px;
+    font-size: var(--font-label);
     margin-bottom: 22px;
     color: rgb(119, 119, 125);
 }
@@ -2897,7 +2912,7 @@ ul.extra-skills li i {
 }
 
 #msgSubmit.h4 {
-    font-size: 20px;
+    font-size: clamp(16px, 1.4vw, 18px);
     margin-bottom: 0;
     margin-top: 10px;
 }
@@ -2919,7 +2934,7 @@ ul.extra-skills li i {
 p.copy-left-text {
     color: var(--main-color);
     font-family: var(--title-font);
-    font-size: 16px;
+    font-size: var(--font-body);
     line-height: 20px;
     font-weight: 300;
     -moz-text-align-last: left;
@@ -2929,7 +2944,7 @@ p.copy-left-text {
 p.copy-right-text {
     color: var(--main-color);
     font-family: var(--title-font);
-    font-size: 16px;
+    font-size: var(--font-body);
     line-height: 20px;
     font-weight: 300;
     -moz-text-align-last: right;
@@ -2938,9 +2953,9 @@ p.copy-right-text {
 
 .footer-top h2 {
     color: var(--main-color);
-    font-size: 180px;
+    font-size: clamp(42px, 7vw, 82px);
     line-height: 1em;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
     text-align: center;
 }
@@ -2952,7 +2967,7 @@ padding-top: 100px;
 .footer-top p{
 
     color: var(--main-color);
-    font-size: 20px;
+    font-size: clamp(16px, 1.4vw, 18px);
     text-align: center;
 }
 
@@ -3017,7 +3032,7 @@ body.loaded {
 }
 
 .preloader .preloader-heading .load-text {
-    font-size: 20px;
+    font-size: clamp(16px, 1.4vw, 18px);
     font-weight: 200;
     letter-spacing: 15px;
     text-transform: uppercase;
@@ -3343,7 +3358,7 @@ body.loaded {
     padding: 10px 0px;
     color: var(--white-color);
     font-family: var(--title-font);
-    font-size: 40px;
+    font-size: var(--font-h2);
     font-weight: 500;
     line-height: 1.3;
     letter-spacing: -0.3px;
@@ -3351,7 +3366,7 @@ body.loaded {
 }
 
 .blog-post-caption h3 {
-    font-size: 18px;
+    font-size: var(--font-label);
     text-transform: uppercase;
     color: var(--primary-color);
     font-family: var(--title-font);
@@ -3359,7 +3374,7 @@ body.loaded {
 
 .blog-post-caption p {
     color: rgba(255, 255, 255, 0.72);
-    font-size: 15px;
+    font-size: clamp(14px, 1vw, 15px);
     line-height: 1.7;
     margin: 0 0 24px;
 }
@@ -3375,8 +3390,8 @@ body.loaded {
     }
 
     .blog-post-caption h2 a {
-        font-size: 36px;
-        line-height: 1.12;
+        font-size: clamp(28px, 8vw, 36px);
+        line-height: 1.15;
     }
 }
 
@@ -3390,7 +3405,7 @@ body.loaded {
 }
 
 .single-blog-post h2 {
-    font-size: 22px;
+    font-size: var(--font-h3);
 }
 
 .single-blog-post a.read-more {
@@ -3427,7 +3442,7 @@ body.loaded {
 }
 
 .single-blog-post p {
-    font-size: 16px;
+    font-size: var(--font-body);
     margin-bottom: 20px;
 }
 
@@ -3435,7 +3450,7 @@ body.loaded {
     position: absolute;
     top: 50%;
     color: #000;
-    font-size: 30px;
+    font-size: var(--font-h3);
     margin-top: -50px;
     background: #333;
     height: 100px;
@@ -3457,7 +3472,7 @@ ul.blog_pagination li a {
     border: 1px solid #e8e8e9;
     border-radius: 0 !important;
     color: #353535;
-    font-size: 16px;
+    font-size: var(--font-body);
     height: 35px;
     line-height: 20px;
     margin: 5px;
@@ -3490,7 +3505,7 @@ ul.blog_pagination li a:hover {
 
 .single-side-bar h2 {
     margin-bottom: 15px;
-    font-size: 22px;
+    font-size: var(--font-h3);
     margin-top: 0;
     text-transform: capitalize;
 }
@@ -3540,7 +3555,7 @@ ul.blog_pagination li a:hover {
 .single-side-bar ul li a {
     color: #fff;
     display: block;
-    font-size: 16px;
+    font-size: var(--font-body);
     padding: 5px 0;
     opacity: .7;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
@@ -3565,7 +3580,7 @@ ul.blog_pagination li a:hover {
     border: 1px solid #333;
     border-radius: 50px;
     float: left;
-    font-size: 22px;
+    font-size: var(--font-h3);
     height: 50px;
     line-height: 50px;
     margin-right: 15px;
@@ -3627,7 +3642,7 @@ ul.blog_pagination li a:hover {
 }
 
 .single-blog-post-details blockquote {
-    font-size: 16px;
+    font-size: var(--font-body);
     line-height: 28px;
     padding-left: 40px;
     border-left: 1px solid #fff;
@@ -3639,7 +3654,7 @@ ul.blog_pagination li a:hover {
 
 .single-blog-post-details h2 {
     padding: 20px 0px;
-    font-size: 40px;
+    font-size: var(--font-h2);
     color: var(--white-color);
 }
 
@@ -3675,7 +3690,7 @@ ul.blog_pagination li a:hover {
 }
 
 .single-comment h5 {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .single-comment p {}
@@ -3755,7 +3770,7 @@ ul.blog_pagination li a:hover {
     background: var(--primary-color) none repeat scroll 0 0;
     border: 1px solid #333;
     color: var(--black-color);
-    font-size: 16px;
+    font-size: var(--font-label);
     padding: 8px 20px;
     display: inline-block;
     border-radius: 12px;
@@ -3796,11 +3811,11 @@ ul.blog_pagination li a:hover {
 }
 
 .single-blog h2 a {
-    font-size: 30px;
+    font-size: var(--font-h3);
     margin-top: 0;
     margin-bottom: 20px;
     text-transform: capitalize;
-    font-weight: 600;
+    font-weight: 500;
     color: #000;
 }
 
@@ -3861,7 +3876,7 @@ ul.blog_pagination li a:hover {
 
 .company-design-area h2 {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: var(--font-body);
     text-align: center;
     color: #fff;
     margin-bottom: 30px;
@@ -3898,8 +3913,8 @@ ul.blog_pagination li a:hover {
     background: #e6eaee;
     border: 1px solid rgba(255, 255, 255, 0.12);
     font-family: var(--title-font);
-    font-size: 16px;
-    font-weight: 600;
+    font-size: var(--font-body);
+    font-weight: 500;
     line-height: 1.1;
     text-align: center;
     text-transform: uppercase;
@@ -3919,7 +3934,7 @@ ul.blog_pagination li a:hover {
     justify-content: center;
     border-radius: 50%;
     font-family: var(--title-font);
-    font-size: 18px;
+    font-size: var(--font-label);
     line-height: 1;
 }
 
