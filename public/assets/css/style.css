@@ -4052,6 +4052,37 @@ ul.blog_pagination li a:hover {
     width: 100%;
 }
 
+.brand-swiper .swiper-wrapper {
+    align-items: center;
+}
+
+.brand-swiper .swiper-slide {
+    width: 330px;
+}
+
+@media only screen and (max-width: 575px) {
+    .brand-swiper .swiper-slide {
+        width: 280px;
+    }
+
+    .brand-wordmark {
+        min-height: 54px;
+        padding: 10px 14px;
+        font-size: 12px;
+    }
+
+    .brand-logo-frame {
+        flex-basis: 48px;
+        width: 48px;
+        height: 34px;
+    }
+
+    .brand-logo-frame img {
+        width: 38px;
+        height: 24px;
+    }
+}
+
 .brand-nav {
     flex: 0 0 44px;
     width: 44px;
