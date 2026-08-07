@@ -6,48 +6,40 @@ export default function HeroArea() {
     <>
       <section id="home" className="main-hero-area">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-3 pt-30">
-
-              <div className="hero-content wow fadeInUp delay-0-2s">
-                <div className="clienti-reviews">
-                  <div className="experience-badge">20+</div>
-                  <div className="reviews">Years of Experience
-                    <p>Successfully opening and managing fine dining restaurants and franchises across the USA, GCC, and Asia.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div className="col-lg-5">
-              <div className="hero-image">
-                <div className="hero-image-frame">
-                  <img src="/assets/images/optimized/iceberg.webp" alt="The Secret of F&B Brands iceberg" width="900" height="1035" loading="eager" decoding="async" />
-                </div>
-              </div>
-
-            </div>
-            <div className="col-lg-4 pt-30">
-              <div className="hero-content iceberg-story wow fadeInUp delay-0-4s">
+          <div className="row align-items-center grandma-hero-row">
+            <div className="col-lg-7">
+              <div className="hero-content grandma-iceberg-copy wow fadeInUp delay-0-2s">
                 <span className="hero-kicker">The F&amp;B Blueprint Behind Successful Brands</span>
                 <h1>Grandma&apos;s Iceberg</h1>
                 <p>Grandma&apos;s Iceberg helps restaurants and hospitality businesses uncover what lies beneath the surface of performance.</p>
-                <p>Built on international F&amp;B leadership experience, it turns systems, people, processes, and leadership practices into sustainable solutions.</p>
-                <div className="iceberg-expertise" aria-label="Grandma's Iceberg expertise">
-                  <span>Operations</span>
-                  <span>Brand Standards</span>
-                  <span>SOPs</span>
-                  <span>Leadership</span>
-                  <span>Guest Experience</span>
-                  <span>Cost Control</span>
-                </div>
+                <p>Built on extensive international F&amp;B leadership experience, we provide practical expertise in:</p>
+                <ul>
+                  <li>Restaurant Operations &amp; Management</li>
+                  <li>Quality Assurance &amp; Brand Standards</li>
+                  <li>SOP Development &amp; Implementation</li>
+                  <li>Leadership &amp; Team Development</li>
+                  <li>Guest Experience &amp; Service Excellence</li>
+                  <li>Training &amp; Performance Improvement</li>
+                  <li>Cost Control &amp; Operational Efficiency</li>
+                  <li>Root-Cause Analysis &amp; Continuous Improvement</li>
+                  <li>Brand &amp; Guest Experience Strategy</li>
+                </ul>
+                <p>Our approach goes beyond fixing visible problems. We identify the systems, people, processes, and leadership practices beneath them and turn them into sustainable solutions.</p>
                 <div className="iceberg-purpose">
                   <strong>Our Purpose</strong>
-                  <p>To make the F&amp;B industry stronger, one operation at a time. Because what guests see is only the tip of the iceberg.</p>
+                  <p>To make the F&amp;B industry stronger, one operation at a time.</p>
+                  <p>Grandma&apos;s Iceberg shares knowledge, develops hospitality professionals, supports businesses, and helps create healthier workplace cultures and better guest experiences.</p>
+                  <p>Because what guests see is only the tip of the iceberg. What makes a brand successful is what happens underneath.</p>
                 </div>
-                <a className="theme-btn" href="#contact">Get In touch</a>
+                <p className="iceberg-signoff">Grandma&apos;s Iceberg — Beyond What You See.</p>
               </div>
-
+            </div>
+            <div className="col-lg-5">
+              <div className="grandma-portrait wow fadeInUp delay-0-4s">
+                <div className="grandma-portrait-frame">
+                  <img src="/assets/images/grandma.jpeg" alt="Grandma's Iceberg portrait" width="1052" height="945" loading="eager" decoding="async" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
