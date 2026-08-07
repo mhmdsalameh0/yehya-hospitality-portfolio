@@ -86,8 +86,13 @@ export default function BrandArea() {
                     loop={true}
                     grabCursor={true}
                     speed={700}
-                    spaceBetween={24}
-                    slidesPerView="auto"
+                    spaceBetween={18}
+                    slidesPerView={1}
+                    breakpoints={{
+                      576: { slidesPerView: 1 },
+                      768: { slidesPerView: 2 },
+                      1200: { slidesPerView: 3 },
+                    }}
                     className="brand-swiper"
                   >
                     {brandLogos.map((brand) => (
