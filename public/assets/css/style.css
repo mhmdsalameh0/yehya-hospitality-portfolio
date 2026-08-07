@@ -1369,6 +1369,108 @@ html {
     text-decoration: underline;
 }
 
+.iceberg-story {
+    max-width: 420px;
+    margin-left: auto;
+    padding: 28px 0 0;
+}
+
+.iceberg-story .hero-kicker {
+    display: block;
+    color: rgba(7, 7, 7, 0.58);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 2.2px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.iceberg-story h1 {
+    color: var(--main-color);
+    font-size: clamp(28px, 3vw, 42px);
+    font-weight: 500;
+    line-height: 1.05;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.iceberg-story p {
+    color: rgba(7, 7, 7, 0.76);
+    font-size: clamp(14px, 1vw, 16px);
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.iceberg-expertise {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 18px 0 20px;
+}
+
+.iceberg-expertise span {
+    display: inline-flex;
+    align-items: center;
+    min-height: 30px;
+    padding: 7px 11px;
+    border: 1px solid rgba(7, 7, 7, 0.14);
+    border-radius: 999px;
+    color: rgba(7, 7, 7, 0.74);
+    background: rgba(255, 255, 255, 0.48);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.iceberg-purpose {
+    margin: 0 0 20px;
+    padding: 16px 0 0;
+    border-top: 1px solid rgba(7, 7, 7, 0.14);
+}
+
+.iceberg-purpose strong {
+    display: block;
+    color: var(--main-color);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.iceberg-purpose p {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .iceberg-story {
+        max-width: 640px;
+        margin: 35px auto 0;
+        text-align: center;
+    }
+
+    .iceberg-expertise {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .iceberg-story {
+        padding-top: 18px;
+    }
+
+    .iceberg-story h1 {
+        font-size: clamp(26px, 8vw, 34px);
+    }
+
+    .iceberg-story .theme-btn {
+        width: 100%;
+    }
+}
+
 .author-image-part {
     z-index: 1;
     overflow: hidden;
