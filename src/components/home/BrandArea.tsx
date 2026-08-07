@@ -91,7 +91,8 @@ export default function BrandArea() {
                     breakpoints={{
                       576: { slidesPerView: 2 },
                       768: { slidesPerView: 3 },
-                      1200: { slidesPerView: 4 },
+                      1200: { slidesPerView: 3 },
+                      1400: { slidesPerView: 4 },
                     }}
                     className="brand-swiper"
                   >
