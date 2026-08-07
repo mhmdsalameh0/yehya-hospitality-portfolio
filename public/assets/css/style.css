@@ -3901,41 +3901,86 @@ ul.blog_pagination li a:hover {
 }
 
 .brand-wordmark {
+    position: relative;
+    isolation: isolate;
     width: 100%;
     min-width: 0;
     min-height: 58px;
-    padding: 14px 18px;
+    padding: 12px 18px;
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: flex-start;
+    gap: 12px;
     color: var(--main-color);
     background: #e6eaee;
     border: 1px solid rgba(255, 255, 255, 0.12);
     font-family: var(--title-font);
-    font-size: var(--font-body);
+    font-size: var(--font-label);
     font-weight: 500;
     line-height: 1.1;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+    -webkit-transition: 0.25s ease;
+    transition: 0.25s ease;
+}
+
+.brand-wordmark:before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    z-index: -1;
+    background:
+        radial-gradient(circle at 15% 50%, rgba(7, 7, 7, 0.08), transparent 34%),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0));
+    opacity: 0.75;
+}
+
+.brand-wordmark:after {
+    content: attr(data-mark);
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    z-index: -1;
+    color: rgba(7, 7, 7, 0.045);
+    font-size: clamp(30px, 3vw, 42px);
+    font-weight: 500;
+    line-height: 1;
+    transform: translateY(-50%);
+}
+
+.brand-wordmark:hover {
+    color: var(--main-color);
+    border-color: rgba(7, 7, 7, 0.18);
+    background: #eef1f4;
+    transform: translateY(-1px);
 }
 
 .brand-wordmark span:last-child {
     min-width: 0;
+    position: relative;
+    z-index: 1;
 }
 
 .brand-icon {
-    flex: 0 0 30px;
-    width: 30px;
-    height: 30px;
+    flex: 0 0 34px;
+    width: 34px;
+    height: 34px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     font-family: var(--title-font);
-    font-size: var(--font-label);
+    font-size: 12px;
+    font-weight: 500;
     line-height: 1;
+    letter-spacing: 0;
+    color: #070707;
+    background: #f4f3ed;
+    border: 1px solid rgba(7, 7, 7, 0.18);
+    box-shadow: 0 8px 20px rgba(7, 7, 7, 0.08);
 }
 
 .brand-icon-bww {
@@ -3945,7 +3990,27 @@ ul.blog_pagination li a:hover {
     box-shadow: 0 0 0 2px rgba(244, 196, 0, 0.28);
 }
 
-.brand-wordmark-bww {
+.brand-icon-cheesecake {
+    border-radius: 10px;
+    background: #f4f3ed;
+}
+
+.brand-icon-kobe {
+    color: #f4f3ed;
+    background: #070707;
+}
+
+.brand-icon-landrys,
+.brand-icon-mortons,
+.brand-icon-maggianos,
+.brand-icon-hampton,
+.brand-icon-gastronomica {
+    background: #fff;
+}
+
+.brand-wordmark-bww,
+.brand-wordmark-kobe,
+.brand-wordmark-mortons {
     background: linear-gradient(90deg, #e6eaee 0%, #eef1f4 100%);
 }
 

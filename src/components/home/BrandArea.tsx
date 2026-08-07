@@ -4,14 +4,54 @@ import { Autoplay, Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 const brandLogos = [
-  { name: "Gastronomica" },
-  { name: "The Cheesecake Factory" },
-  { name: "Buffalo Wild Wings", icon: "bww" },
-  { name: "Kobe Japanese Steakhouse" },
-  { name: "Morton's The Steakhouse" },
-  { name: "Chart House" },
-  { name: "Maggiano's Little Italy" },
-  { name: "Marriott Hotels" },
+  {
+    name: "Gastronomica",
+    mark: "G",
+    icon: "gastronomica",
+    url: "https://www.linkedin.com/company/gastronomica-general-trading-co-/",
+  },
+  {
+    name: "The Cheesecake Factory",
+    mark: "CF",
+    icon: "cheesecake",
+    url: "https://www.linkedin.com/company/lifeatcheesecake/",
+  },
+  {
+    name: "Buffalo Wild Wings",
+    mark: "B",
+    icon: "bww",
+    url: "https://www.linkedin.com/company/buffalo-wild-wings/",
+  },
+  {
+    name: "Kobe Japanese Steakhouse",
+    mark: "K",
+    icon: "kobe",
+    url: "https://www.linkedin.com/company/kobe-japanese-steakhouse/",
+  },
+  {
+    name: "Landry's Restaurants",
+    mark: "L",
+    icon: "landrys",
+    url: "https://www.linkedin.com/company/landry%27s-restaurants/",
+  },
+  {
+    name: "Morton's The Steakhouse",
+    mark: "M",
+    icon: "mortons",
+    url: "https://www.linkedin.com/company/morton%27s-the-steakhouse/",
+  },
+  {
+    name: "Maggiano's Little Italy",
+    mark: "M",
+    icon: "maggianos",
+    url: "https://www.linkedin.com/company/maggiano%27s-little-italy/",
+  },
+  {
+    name: "Hampton Inn by Hilton",
+    mark: "H",
+    icon: "hampton",
+    url: "https://www.linkedin.com/company/hampton-inn-by-hilton/",
+  },
 ]
 
 export default function BrandArea() {
@@ -51,10 +91,17 @@ export default function BrandArea() {
                   >
                     {brandLogos.map((brand) => (
                       <SwiperSlide key={brand.name}>
-                        <span className={`brand-wordmark ${brand.icon ? `brand-wordmark-${brand.icon}` : ''}`}>
-                          {brand.icon === "bww" && <span className="brand-icon brand-icon-bww" aria-hidden="true">B</span>}
+                        <a
+                          className={`brand-wordmark brand-wordmark-${brand.icon}`}
+                          href={brand.url ?? "#"}
+                          target={brand.url ? "_blank" : undefined}
+                          rel={brand.url ? "noopener noreferrer" : undefined}
+                          aria-label={brand.url ? `${brand.name} LinkedIn` : brand.name}
+                          data-mark={brand.mark}
+                        >
+                          <span className={`brand-icon brand-icon-${brand.icon}`} aria-hidden="true">{brand.mark}</span>
                           <span>{brand.name}</span>
-                        </span>
+                        </a>
                       </SwiperSlide>
                     ))}
                   </Swiper>
