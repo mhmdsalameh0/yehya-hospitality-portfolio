@@ -3965,15 +3965,15 @@ ul.blog_pagination li a:hover {
 }
 
 .brand-logo-frame {
-    flex: 0 0 38px;
-    width: 38px;
+    flex: 0 0 56px;
+    width: 56px;
     height: 38px;
     position: relative;
     z-index: 1;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 8px;
     background: #fff;
     border: 1px solid rgba(7, 7, 7, 0.14);
     box-shadow: 0 8px 20px rgba(7, 7, 7, 0.08);
@@ -3981,7 +3981,7 @@ ul.blog_pagination li a:hover {
 }
 
 .brand-logo-frame img {
-    width: 28px;
+    width: 46px;
     height: 28px;
     object-fit: contain;
     display: block;
