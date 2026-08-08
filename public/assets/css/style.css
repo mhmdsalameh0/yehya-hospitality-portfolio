@@ -4096,11 +4096,11 @@ ul.blog_pagination li a:hover {
 
 .brand-at {
     display: inline-block;
-    margin-left: 3px;
-    font-size: 0.62em;
-    font-weight: 500;
+    margin-left: 4px;
+    font-size: 0.9em;
+    font-weight: 600;
     line-height: 1;
-    transform: translateY(-0.55em);
+    transform: translateY(-0.38em);
     transform-origin: left center;
 }
 
