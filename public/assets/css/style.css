@@ -4083,14 +4083,25 @@ ul.blog_pagination li a:hover {
     transform: translateY(-1px);
 }
 
-.brand-wordmark span:last-child {
+.brand-wordmark .brand-name {
     min-width: 0;
     position: relative;
     z-index: 1;
     flex: 1 1 auto;
+    display: inline-block;
     overflow: visible;
     text-overflow: clip;
     white-space: nowrap;
+}
+
+.brand-at {
+    display: inline-block;
+    margin-left: 3px;
+    font-size: 0.62em;
+    font-weight: 500;
+    line-height: 1;
+    transform: translateY(-0.55em);
+    transform-origin: left center;
 }
 
 .brand-logo-frame {
