@@ -7,19 +7,7 @@ export default function HeroArea() {
       <section id="home" className="main-hero-area">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-3 pt-30">
-
-              <div className="hero-content wow fadeInUp delay-0-2s">
-                <div className="clienti-reviews">
-                  <div className="experience-badge">20+</div>
-                  <div className="reviews">Years of Experience
-                    <p>Successfully opening and managing fine dining restaurants and franchises across the USA, GCC, and Asia.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div className="col-lg-5">
+            <div className="col-lg-7">
               <div className="hero-image">
                 <div className="hero-image-frame">
                   <img src="/assets/images/optimized/iceberg.webp" alt="The Secret of F&B Brands iceberg" width="900" height="1035" loading="eager" decoding="async" />
@@ -27,7 +15,7 @@ export default function HeroArea() {
               </div>
 
             </div>
-            <div className="col-lg-4 pt-30">
+            <div className="col-lg-5 pt-30">
               <div className="hero-content iceberg-story wow fadeInUp delay-0-4s">
                 <span className="hero-kicker">The F&amp;B Blueprint Behind Successful Brands</span>
                 <h1>Grandma&apos;s Iceberg</h1>

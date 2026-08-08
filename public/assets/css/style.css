@@ -1554,7 +1554,7 @@ html {
     display: inline-block;
     left: 50%;
     transform: translateX(-50%);
-    width: min(410px, 100%);
+    width: min(500px, 100%);
 }
 
 .hero-image-frame {
