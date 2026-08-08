@@ -112,7 +112,7 @@ export default function BrandArea() {
                           ) : (
                             <span className={`brand-icon brand-icon-${brand.icon}`} aria-hidden="true">{brand.mark}</span>
                           )}
-                          <span>{brand.name}</span>
+                          <span>{brand.name} @</span>
                         </a>
                       </SwiperSlide>
                     ))}
