@@ -1711,6 +1711,7 @@ html {
 
 .about-profile-row {
     row-gap: 45px;
+    align-items: flex-start !important;
 }
 
 .about-portrait-card {
