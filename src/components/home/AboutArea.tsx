@@ -42,9 +42,10 @@ export default function AboutArea() {
             </div>
             <div className="col-lg-7">
               <div className="about-content-part wow fadeInUp delay-0-2s">
-                <span className="about-kicker">Founder & CEO</span>
-                <h3>YAZ</h3>
-                <p>I am YAZ, an AHLEI Certified Hospitality Professional with over 20 years of experience opening and managing multi-location fine dining restaurants and franchises. My journey spans iconic hospitality brands across the USA, GCC, and Asia, specializing in operational excellence, culinary innovations, and guest experience optimization.</p>
+                <span className="about-kicker">Founder & Principal Hospitality Consultant</span>
+                <h3>Yaz Abou Zahr</h3>
+                <p>Yaz Abou Zahr is an international hospitality expert with more than 20 years of experience in food and beverage operations, brand development, guest experience and professional training. His career spans the United States, Lebanon and the GCC, where he held leadership positions with renowned brands including Morton's The Steakhouse, Chart House, Kobe Japanese Steakhouse, The Cheesecake Factory, Buffalo Wild Wings and Gastronomica.</p>
+                <p>Drawing on this extensive operational experience, Yaz founded Grandma's Iceberg, a hospitality consultancy built around his signature concept, The Secret of F&B Brands. His approach looks beyond what guests see, including exceptional dining, brand perception and memorable experiences, to strengthen what truly drives success beneath the surface: corporate structure, leadership, operational systems, staff development, cost control and continuous improvement. Through consulting and educational content, Yaz helps hospitality brands build stronger foundations and achieve sustainable growth.</p>
               </div>
               <div className="hero-counter-area about-stats d-flex justify-content-between wow fadeInUp delay-0-4s">
                 {counter_data.map((item, i) => (
