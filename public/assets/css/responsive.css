@@ -393,7 +393,7 @@ Version      : 1.0
         font-size: 14px;
         line-height: 1.75;
         text-align: left;
-        margin-bottom: 16px;
+        margin-bottom: 0;
     }
 
     .resume-area {

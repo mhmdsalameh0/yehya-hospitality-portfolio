@@ -1816,7 +1816,7 @@ html {
     font-weight: 400;
     line-height: 1.85;
     max-width: 680px;
-    margin-bottom: 18px;
+    margin-bottom: 0;
 }
 
 .about-content-part p:last-child {
