@@ -36,7 +36,7 @@ export default function BlogDetailsArea() {
                         </div>
                         <div className="postbox__meta">
                           <span>
-                            <a href="#"><i className="fa-light fa-user"></i>Yehya Abouzahr</a>
+                            <a href="#"><i className="fa-light fa-user"></i>YAZ Zahr</a>
                           </span>
                           <span>
                             <a href="#"><i className="fa-light fa-clock"></i>April 2026</a>
@@ -81,13 +81,13 @@ export default function BlogDetailsArea() {
                           <div className="sidebar__widget-content">
                             <div className="sidebar__author">
                               <div className="sidebar__author-thumb">
-                                <img src="/assets/images/optimized/me-grey-studio.webp" alt="Yehya Abouzahr" />
+                                <img src="/assets/images/optimized/me-grey-studio.webp" alt="YAZ Zahr" />
                               </div>
                               <div className="sidebar__author-content">
                                 <h3 className="sidebar__author-title">YAZ</h3>
                                 <p>AHLEI Certified Hospitality Professional with 20+ years of global experience managing multi-location F&B operations.</p>
                                 <div className="sidebar__author-social d-flex align-items-center justify-content-center">
-                                  <a target="_blank" href="https://www.linkedin.com/search/results/all/?keywords=Yehya%20Abouzahr" aria-label="LinkedIn"><i className="fa-brands fa-linkedin-in"></i></a>
+                                  <a target="_blank" href="https://www.linkedin.com/in/yehya-yaz-abou-zahr-1248381a?utm_source=share_via&utm_content=profile&utm_medium=member_ios" aria-label="LinkedIn"><i className="fa-brands fa-linkedin-in"></i></a>
                                 </div>
                               </div>
                             </div>

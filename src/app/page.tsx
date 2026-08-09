@@ -5,8 +5,8 @@ import type { Metadata } from 'next'
 import Home from '@/components/home'
 import Wrapper from '@/layouts/Wrapper'
 export const metadata: Metadata = {
-  title: 'YAZ - Yehya Abouzahr',
-  description: 'Yehya Abouzahr (YAZ) is an AHLEI Certified Hospitality Professional with over 20 years of experience in restaurant operations, guest experience, openings, and training.',
+  title: 'YAZ Zahr',
+  description: 'YAZ Zahr is an AHLEI Certified Hospitality Professional with over 20 years of experience in restaurant operations, guest experience, openings, and training.',
 }
 
 

@@ -5,8 +5,8 @@ import { Metadata } from 'next'
 import React from 'react'
 
 export const metadata: Metadata = {
-  title: 'About YAZ - Yehya Abouzahr',
-  description: 'Experience, education, training, and hospitality leadership profile for Yehya Abouzahr.',
+  title: 'About YAZ Zahr',
+  description: 'Experience, education, training, and hospitality leadership profile for YAZ Zahr.',
 }
 
 

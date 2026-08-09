@@ -5,21 +5,21 @@ import Link from 'next/link'
 const caseStudies = [
   {
     image: "/assets/images/white-robata-kuwait.jpg",
-    author: "Yehya Abouzahr",
+    author: "YAZ Zahr",
     date: "April 2026",
     title: "Spearheading Business Transformation at White Robata & Milk Bun",
     excerpt: "Discover how targeted digital enhancements, strategic executive chef hiring, and comprehensive operational overhauls led to peak efficiency and elevated customer satisfaction across flagship Gastronomica brands.",
   },
   {
     image: "/assets/images/WhatsApp Image 2026-08-05 at 10.40.31 PM.jpeg",
-    author: "Yehya Abouzahr",
+    author: "YAZ Zahr",
     date: "December 2021",
     title: "Launching Buffalo Wild Wings in Oman with Record-Breaking Sales",
     excerpt: "A look at building Buffalo Wild Wings from scratch into full-service operations, creating a high-energy launch, and sustaining the highest sales after new restaurant opening across the region.",
   },
   {
     image: "/assets/images/cheers factory.jpeg",
-    author: "Yehya Abouzahr",
+    author: "YAZ Zahr",
     date: "December 2016",
     title: "Building a 500-Strong Team for The Cheesecake Factory GCC",
     excerpt: "From task-force openings to screening, hiring, and training hundreds of team members, this milestone highlights the leadership required to launch high-capacity restaurants across the GCC.",
@@ -107,13 +107,13 @@ export default function PostboxArea() {
                   <div className="sidebar__widget-content">
                     <div className="sidebar__author">
                       <div className="sidebar__author-thumb">
-                        <img src="/assets/images/optimized/me-grey-studio.webp" alt="Yehya Abouzahr" />
+                        <img src="/assets/images/optimized/me-grey-studio.webp" alt="YAZ Zahr" />
                       </div>
                       <div className="sidebar__author-content">
                         <h3 className="sidebar__author-title">YAZ</h3>
                         <p>AHLEI Certified Hospitality Professional with 20+ years of global experience managing multi-location F&B operations.</p>
                         <div className="sidebar__author-social d-flex align-items-center justify-content-center">
-                          <a target="_blank" href="https://www.linkedin.com/search/results/all/?keywords=Yehya%20Abouzahr" aria-label="LinkedIn"><i className="fa-brands fa-linkedin-in"></i></a>
+                          <a target="_blank" href="https://www.linkedin.com/in/yehya-yaz-abou-zahr-1248381a?utm_source=share_via&utm_content=profile&utm_medium=member_ios" aria-label="LinkedIn"><i className="fa-brands fa-linkedin-in"></i></a>
                         </div>
                       </div>
                     </div>

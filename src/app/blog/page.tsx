@@ -5,7 +5,7 @@ import React from 'react'
 
 export const metadata: Metadata = {
   title: 'Career Milestones - YAZ',
-  description: 'Career milestones and hospitality case studies from Yehya Abouzahr.',
+  description: 'Career milestones and hospitality case studies from YAZ Zahr.',
 }
 
 export default function index() {

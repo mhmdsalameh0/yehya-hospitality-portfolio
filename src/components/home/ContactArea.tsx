@@ -67,7 +67,7 @@ export default function ContactArea() {
                   <h2>Socials</h2>
                   <div className="about-social">
                     <ul>
-                      <li><a target='_blank' href="https://www.linkedin.com/search/results/all/?keywords=Yehya%20Abouzahr" aria-label="LinkedIn"><i className="ri-linkedin-fill"></i></a></li>
+                      <li><a target='_blank' href="https://www.linkedin.com/in/yehya-yaz-abou-zahr-1248381a?utm_source=share_via&utm_content=profile&utm_medium=member_ios" aria-label="LinkedIn"><i className="ri-linkedin-fill"></i></a></li>
                     </ul>
                   </div>
                 </div>

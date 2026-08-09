@@ -7,7 +7,7 @@ import Wrapper from '@/layouts/Wrapper'
 import BlogDetails from '@/components/blog-details'
 export const metadata: Metadata = {
   title: 'Milestone Details - YAZ',
-  description: 'Detailed hospitality career milestone from Yehya Abouzahr.',
+  description: 'Detailed hospitality career milestone from YAZ Zahr.',
 }
 
 

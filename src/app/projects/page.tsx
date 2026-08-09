@@ -5,7 +5,7 @@ import React from 'react'
 
 export const metadata: Metadata = {
   title: 'Operations & Brands - YAZ',
-  description: 'Hospitality brands, restaurant openings, and fine-dining operations led by Yehya Abouzahr.',
+  description: 'Hospitality brands, restaurant openings, and fine-dining operations led by YAZ Zahr.',
 }
 
 

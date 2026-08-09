@@ -6,7 +6,7 @@ import React from 'react'
 
 export const metadata: Metadata = {
   title: 'Contact - YAZ',
-  description: 'Contact Yehya Abouzahr for hospitality operations, restaurant openings, guest experience, and training.',
+  description: 'Contact YAZ Zahr for hospitality operations, restaurant openings, guest experience, and training.',
 }
 
 
