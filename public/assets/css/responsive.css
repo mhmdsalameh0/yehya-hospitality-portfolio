@@ -280,8 +280,8 @@ Version      : 1.0
     }
 
     .about-content-part {
-        padding-left: 0px;
-        padding-right: 0;
+        padding: 28px 24px;
+        text-align: left;
     }
 
     h2.about-pre-title {
@@ -365,12 +365,35 @@ Version      : 1.0
 
 
     .about-area {
-        padding-top: 0px;
+        padding-top: 75px;
+    }
+
+    .about-content-part {
+        width: 100%;
+        max-width: none;
+        padding: 30px 24px;
+        text-align: left;
+    }
+
+    .about-content-part .about-kicker {
+        display: block;
+        font-size: 10px;
+        line-height: 1.45;
+        letter-spacing: 1.2px;
+        margin-bottom: 14px;
+    }
+
+    .about-content-part h3 {
+        font-size: clamp(30px, 8vw, 38px);
+        line-height: 1.05;
+        margin-bottom: 18px;
     }
 
     .about-content-part p {
-        font-size: 24px;
-        line-height: 1.4em;
+        font-size: 14px;
+        line-height: 1.75;
+        text-align: left;
+        margin-bottom: 16px;
     }
 
     .resume-area {
