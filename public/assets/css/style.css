@@ -1842,6 +1842,11 @@ html {
     margin-bottom: 22px;
 }
 
+.about-name-gap {
+    display: inline-block;
+    margin-left: 0.18em;
+}
+
 .about-stats {
     max-width: 720px;
     gap: 16px;
