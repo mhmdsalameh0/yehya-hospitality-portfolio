@@ -1,4 +1,4 @@
-/*
+﻿/*
 * ----------------------------------------------------------------------------------------
 Author       : Tanvir Hossain
 Template Name: Nino - Premium Portfolio Template
@@ -369,9 +369,11 @@ Version      : 1.0
     }
 
     .about-content-part {
-        width: 100%;
+        width: calc(100% - 22px);
         max-width: none;
-        padding: 30px 24px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 32px 28px;
         text-align: left;
     }
 
@@ -389,10 +391,20 @@ Version      : 1.0
         margin-bottom: 18px;
     }
 
+    .about-name {
+        column-gap: 0;
+        justify-content: flex-start;
+    }
+
     .about-content-part p {
-        font-size: 14px;
-        line-height: 1.75;
+        font-size: 14.5px;
+        line-height: 1.85;
         text-align: left;
+        margin-bottom: 16px;
+        max-width: 100%;
+    }
+
+    .about-content-part p:last-child {
         margin-bottom: 0;
     }
 
@@ -1536,3 +1548,4 @@ Version      : 1.0
         padding: 0 15px;
     }
 }
+

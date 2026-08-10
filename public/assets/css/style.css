@@ -1,4 +1,4 @@
-/*
+﻿/*
 * ----------------------------------------------------------------------------------------
 Author       : Tanvir Hossain
 Template Name: Nino - Premium Portfolio Template
@@ -1803,20 +1803,29 @@ html {
 
 .about-content-part {
     max-width: 720px;
-    padding: 36px 38px;
-    border: 1px solid rgba(244, 243, 237, 0.10);
+    padding: clamp(28px, 3vw, 42px);
+    border: 1px solid rgba(244, 243, 237, 0.12);
     border-radius: 18px;
-    background: linear-gradient(135deg, rgba(244, 243, 237, 0.055), rgba(244, 243, 237, 0.018));
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    background:
+        linear-gradient(135deg, rgba(244, 243, 237, 0.07), rgba(244, 243, 237, 0.022)),
+        radial-gradient(circle at 12% 8%, rgba(244, 243, 237, 0.075), transparent 32%);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 24px 70px rgba(0, 0, 0, 0.24);
 }
 
 .about-content-part p {
-    color: rgba(244, 243, 237, 0.78);
-    font-size: clamp(14px, 1vw, 16px);
+    color: rgba(244, 243, 237, 0.82);
+    font-size: clamp(15px, 1.08vw, 17px);
     font-weight: 400;
-    line-height: 1.85;
+    line-height: 1.95;
     max-width: 680px;
-    margin-bottom: 0;
+    margin-bottom: 18px;
+    text-wrap: pretty;
+}
+
+.about-content-part p strong {
+    color: var(--primary-color);
+    font-weight: 600;
+    white-space: nowrap;
 }
 
 .about-content-part p:last-child {
@@ -1842,9 +1851,17 @@ html {
     margin-bottom: 22px;
 }
 
+.about-name {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    column-gap: 0;
+    row-gap: 4px;
+}
+
 .about-name-gap {
     display: inline-block;
-    margin-left: 0.18em;
+    margin-left: 0;
 }
 
 .about-stats {
@@ -1921,13 +1938,26 @@ html {
     }
 
     .about-content-part {
-        padding: 28px 22px;
+        width: calc(100% - 28px);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 26px 18px;
         border-radius: 16px;
+        text-align: left;
     }
 
     .about-content-part p {
         font-size: 14px;
-        line-height: 1.75;
+        line-height: 1.72;
+        margin-bottom: 14px;
+        max-width: 100%;
+        overflow-wrap: anywhere;
+        text-wrap: auto;
+    }
+
+    .about-name {
+        column-gap: 0;
+        justify-content: flex-start;
     }
 
     .about-stats {
@@ -4327,3 +4357,5 @@ ul.blog_pagination li a:hover {
 }
     font-family: var(--title-font);
     font-family: var(--title-font);
+
+
