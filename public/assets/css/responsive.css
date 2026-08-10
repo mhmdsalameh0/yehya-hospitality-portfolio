@@ -1,4 +1,4 @@
-﻿/*
+/*
 * ----------------------------------------------------------------------------------------
 Author       : Tanvir Hossain
 Template Name: Nino - Premium Portfolio Template
@@ -392,7 +392,7 @@ Version      : 1.0
     }
 
     .about-name {
-        column-gap: 0;
+        column-gap: 0.18em;
         justify-content: flex-start;
     }
 
