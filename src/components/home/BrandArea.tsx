@@ -29,7 +29,7 @@ const brandLogos = [
     mark: "K",
     icon: "kobe",
     url: "https://www.linkedin.com/company/kobe-japanese-steakhouse/",
-    logoSrc: "/assets/images/712-7127846_kobe-japanese-steakhouse-logo-clipart-png-download-circle.png",
+    logoSrc: "/assets/images/kobe_japanese_steakhouse_logo.jpg",
   },
   {
     name: "Landry's Restaurants",
@@ -67,7 +67,7 @@ export default function BrandArea() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h2>Brands & Groups I Worked With</h2>
+              <h2>Executed Global Brands</h2>
               <div className="company-list">
                 <div className="brand-swiper-wrap">
                   <button className="brand-nav brand-nav-prev" type="button" aria-label="Previous brand">
@@ -112,7 +112,7 @@ export default function BrandArea() {
                           ) : (
                             <span className={`brand-icon brand-icon-${brand.icon}`} aria-hidden="true">{brand.mark}</span>
                           )}
-                          <span className="brand-name">{brand.name}<span className="brand-at">@</span></span>
+                          <span className="brand-name">{brand.name}<span className="brand-at">®</span></span>
                         </a>
                       </SwiperSlide>
                     ))}

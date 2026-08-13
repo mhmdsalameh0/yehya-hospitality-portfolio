@@ -26,7 +26,7 @@ export default function HeaderOne() {
                         </span>
                         <span className="logo-mark">YAZ</span>
                         <span className="logo-copy">
-                          <small>YAZ Zahr</small>
+                          <small>YAZ&nbsp;Zahr</small>
                           <small>Grandma Iceberg</small>
                           <small>Founder & CEO</small>
                         </span>
