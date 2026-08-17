@@ -1844,9 +1844,10 @@ html {
 .about-portrait-caption strong {
     color: var(--primary-color);
     font-family: var(--title-font);
-    font-size: clamp(28px, 2.6vw, 36px);
+    font-size: clamp(20px, 2vw, 28px);
     font-weight: 500;
     line-height: 1.05;
+    white-space: nowrap;
 }
 
 .about-portrait-caption span {
@@ -1937,7 +1938,7 @@ html {
 
 .about-content-part h3 {
     color: var(--primary-color);
-    font-size: clamp(36px, 4vw, 54px);
+    font-size: clamp(32px, 3.2vw, 44px);
     font-weight: 500;
     line-height: 1.05;
     margin-bottom: 22px;
@@ -1946,9 +1947,10 @@ html {
 .about-name {
     display: flex;
     align-items: baseline;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     column-gap: 0.42em;
     row-gap: 4px;
+    white-space: nowrap;
 }
 
 .about-name-gap {

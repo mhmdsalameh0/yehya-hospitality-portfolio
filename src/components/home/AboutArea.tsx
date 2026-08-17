@@ -35,7 +35,7 @@ export default function AboutArea() {
                   <img src="/assets/images/optimized/me-grey-studio.webp" alt="YAZ Zahr" width="760" height="906" loading="lazy" decoding="async" />
                 </div>
                 <div className="about-portrait-caption">
-                  <strong>YAZ</strong>
+                  <strong>YAZ ZAHR</strong>
                   <span>Hospitality Professional</span>
                 </div>
               </div>
@@ -43,9 +43,8 @@ export default function AboutArea() {
             <div className="col-lg-7">
               <div className="about-content-part wow fadeInUp delay-0-2s">
                 <span className="about-kicker">Founder & Principal Hospitality Consultant</span>
-                <h3 className="about-name"><span>YAZ</span><span className="about-name-gap">Zahr</span></h3>
                 <p>An international hospitality expert with more than 20 years of experience in food and beverage operations, brand development, guest experience and professional training. His career spans the United States, Lebanon and the GCC, where he held leadership positions with renowned brands including Morton's The Steakhouse, Chart House, Kobe Japanese Steakhouse, The Cheesecake Factory, Buffalo Wild Wings and Gastronomica.</p>
-                <p>Drawing on this extensive operational experience, <strong>YAZ Zahr</strong> founded Grandma's Iceberg, a hospitality consultancy built around his signature concept, The Secret of F&B Brands. His approach looks beyond what guests see, including exceptional dining, brand perception and memorable experiences, to strengthen what truly drives success beneath the surface: corporate structure, leadership, operational systems, staff development, cost control and continuous improvement. Through consulting and educational content, <strong>YAZ Zahr</strong> helps hospitality brands build stronger foundations and achieve sustainable growth.</p>
+                <p>Drawing on this extensive operational experience, he founded Grandma's Iceberg, a hospitality consultancy built around his signature concept, The Secret of F&B Brands. His approach looks beyond what guests see, including exceptional dining, brand perception and memorable experiences, to strengthen what truly drives success beneath the surface: corporate structure, leadership, operational systems, staff development, cost control and continuous improvement. Through consulting and educational content, he helps hospitality brands build stronger foundations and achieve sustainable growth.</p>
               </div>
               <div className="hero-counter-area about-stats d-flex justify-content-between wow fadeInUp delay-0-4s">
                 {counter_data.map((item, i) => (
