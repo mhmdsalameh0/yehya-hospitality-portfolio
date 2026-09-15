@@ -21,12 +21,7 @@ export default function HeaderOne() {
                   <div className="logo-area">
                     <div className="logo">
                       <Link href="/" className="text-logo">
-                        <span className="logo-photo">
-                          <img src="/assets/images/optimized/me-paris.webp" alt="YAZ Zahr" />
-                        </span>
-                        <span className="logo-mark">YAZ</span>
                         <span className="logo-copy">
-                          <small>YAZ&nbsp;Zahr</small>
                           <small>Grandma Iceberg</small>
                           <small>Founder & CEO</small>
                         </span>

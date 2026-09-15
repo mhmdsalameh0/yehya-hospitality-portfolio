@@ -18,7 +18,9 @@ export default function FooterOne() {
               <p className="copy-left-text">Developed by Mohammad Salameh</p>
             </div>
             <div className="col-lg-6 col-sm-6">
-              <p className="copy-right-text">© 2026 YAZ Zahr. All rights reserved.</p>
+              <p className="copy-right-text">
+                © 2026 YAZ<span style={{ display: 'inline-block', marginLeft: '0.4em' }}>ZAHR</span>. All rights reserved.
+              </p>
             </div>
           </div>
         </div>

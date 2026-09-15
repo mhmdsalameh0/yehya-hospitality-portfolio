@@ -3,7 +3,6 @@ import React from 'react'
 import HeroArea from './HeroArea'
 import BrandArea from './BrandArea'
 import AboutArea from './AboutArea'
-import ServiceArea from './ServiceArea'
 import HeaderOne from '@/layouts/headers/HeaderOne'
 import PortfolioArea from './PortfolioArea'
 import TestimonoalArea from './TestimonoalArea'
@@ -21,7 +20,6 @@ export default function Home() {
             <HeroArea />
             <BrandArea />
             <AboutArea />
-            <ServiceArea />
             <PortfolioArea />
             <TestimonoalArea />
             <BlogArea />

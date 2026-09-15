@@ -9,6 +9,7 @@ const brandLogos = [
     mark: "G",
     icon: "gastronomica",
     url: "https://www.linkedin.com/company/gastronomica-general-trading-co-/",
+    logoSrc: "/assets/images/imagess.jpg",
   },
   {
     name: "The Cheesecake Factory",
@@ -47,7 +48,7 @@ const brandLogos = [
   },
   {
     name: "Maggiano's Little Italy",
-    mark: "M",
+    mark: "Maggiano's Little Italy",
     icon: "maggianos",
     url: "https://www.linkedin.com/company/maggiano%27s-little-italy/",
   },
@@ -98,12 +99,12 @@ export default function BrandArea() {
                     {brandLogos.map((brand) => (
                       <SwiperSlide key={brand.name}>
                         <a
-                          className={`brand-wordmark brand-wordmark-${brand.icon}`}
+                          className={`brand-wordmark brand-wordmark-${brand.icon}${brand.logoSrc ? ' brand-wordmark-image' : ''}`}
                           href={brand.url ?? "#"}
                           target={brand.url ? "_blank" : undefined}
                           rel={brand.url ? "noopener noreferrer" : undefined}
                           aria-label={brand.url ? `${brand.name} LinkedIn` : brand.name}
-                          data-mark={brand.mark}
+                          data-mark={brand.logoSrc ? "" : brand.mark}
                         >
                           {brand.logoSrc ? (
                             <span className="brand-logo-frame" aria-hidden="true">

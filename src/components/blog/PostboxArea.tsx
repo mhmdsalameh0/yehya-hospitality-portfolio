@@ -106,15 +106,22 @@ export default function PostboxArea() {
                 <div className="sidebar__widget mb-45">
                   <div className="sidebar__widget-content">
                     <div className="sidebar__author">
-                      <div className="sidebar__author-thumb">
-                        <img src="/assets/images/optimized/me-grey-studio.webp" alt="YAZ Zahr" />
+                      <div style={{ marginBottom: '25px' }}>
+                        <img
+                          src="/assets/images/WhatsApp Image 2026-09-15 at 7.55.13 PM.jpeg"
+                          alt="YAZ creating a memorable guest experience in a restaurant"
+                          style={{ display: 'block', width: '100%', height: 'auto' }}
+                        />
+                        <img
+                          src="/assets/images/wild wings.jpeg"
+                          alt="YAZ and the Buffalo Wild Wings team"
+                          style={{ display: 'block', width: '100%', height: 'auto', marginTop: '16px' }}
+                        />
                       </div>
                       <div className="sidebar__author-content">
-                        <h3 className="sidebar__author-title">YAZ</h3>
-                        <p>AHLEI Certified Hospitality Professional with 20+ years of global experience managing multi-location F&B operations.</p>
-                        <div className="sidebar__author-social d-flex align-items-center justify-content-center">
-                          <a target="_blank" href="https://www.linkedin.com/in/yehya-yaz-abou-zahr-1248381a?utm_source=share_via&utm_content=profile&utm_medium=member_ios" aria-label="LinkedIn"><i className="fa-brands fa-linkedin-in"></i></a>
-                        </div>
+                        <p>
+                          Hospitality is not only about food and service—it is also about creating moments guests will remember. Sometimes the manager and the team need to step out of the serious “poker face” and become part of the show. A funny pose, a playful interaction, a celebration, or a little unexpected entertainment can completely change the atmosphere of a restaurant. When leaders join the fun, the team feels more relaxed, guests feel more connected, and the restaurant becomes more than a place to eat—it becomes an experience. <strong>Great hospitality knows when to be professional, and when it’s showtime.</strong>
+                        </p>
                       </div>
                     </div>
                   </div>

@@ -1383,8 +1383,8 @@ html {
 }
 
 .grandma-badge {
-    width: 66px;
-    height: 66px;
+    width: 112px;
+    height: 112px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1673,12 +1673,29 @@ html {
 }
 
 .hero-image-frame {
+    position: relative;
+    overflow: hidden;
     padding: 10px;
     border-radius: 14px;
     background: rgba(255, 255, 255, 0.88);
     border: 1px solid rgba(7, 7, 7, 0.10);
     box-shadow: 0 28px 70px rgba(0, 0, 0, 0.18);
     backdrop-filter: blur(10px);
+}
+
+.hero-image-frame:after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 92px;
+    background-image: url("/assets/images/iceberg-grandma-face.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 116% auto;
+    border-radius: 0 0 10px 10px;
+    pointer-events: none;
 }
 
 .hero-image img {
@@ -4401,9 +4418,9 @@ ul.blog_pagination li a:hover {
 }
 
 .brand-logo-frame {
-    flex: 0 0 48px;
-    width: 48px;
-    height: 38px;
+    flex: 0 0 58px;
+    width: 58px;
+    height: 46px;
     position: relative;
     z-index: 1;
     display: inline-flex;
@@ -4417,10 +4434,22 @@ ul.blog_pagination li a:hover {
 }
 
 .brand-logo-frame img {
-    width: 38px;
-    height: 28px;
+    width: 48px;
+    height: 36px;
     object-fit: contain;
     display: block;
+}
+
+.brand-wordmark-gastronomica .brand-logo-frame {
+    flex-basis: 58px;
+    width: 58px;
+    height: 46px;
+}
+
+.brand-wordmark-gastronomica .brand-logo-frame img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
 }
 
 .brand-icon {
@@ -4459,9 +4488,26 @@ ul.blog_pagination li a:hover {
     background: #070707;
 }
 
+.brand-icon-maggianos {
+    width: 58px;
+    height: 46px;
+    flex-basis: 58px;
+    border-radius: 8px;
+    padding: 6px 5px;
+    color: #fff;
+    background: #811a15;
+    border: 1px solid rgba(7, 7, 7, 0.14);
+    box-shadow: 0 8px 20px rgba(7, 7, 7, 0.08);
+    font-size: 7px;
+    font-weight: 700;
+    line-height: 1.05;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: normal;
+}
+
 .brand-icon-landrys,
 .brand-icon-mortons,
-.brand-icon-maggianos,
 .brand-icon-hampton,
 .brand-icon-gastronomica {
     background: #fff;
@@ -4496,14 +4542,14 @@ ul.blog_pagination li a:hover {
     }
 
     .brand-logo-frame {
-        flex-basis: 48px;
-        width: 48px;
-        height: 34px;
+        flex-basis: 54px;
+        width: 54px;
+        height: 42px;
     }
 
     .brand-logo-frame img {
-        width: 38px;
-        height: 24px;
+        width: 44px;
+        height: 32px;
     }
 }
 
